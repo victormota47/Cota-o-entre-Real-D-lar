@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffffcc;
+    border-radius: 12px;
+    padding: 30px 50px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    backdrop-filter: blur(8px);
+    transition: all 0.3s ease;
+}
+
+h1 {
+    color: #333;
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 15px;
+    display: block;
+    color: #444;
+    font-size: 16px;
+}
+
+input[type="number"], select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus, select:focus {
+    border-color: #4facfe;
+    outline: none;
+    box-shadow: 0 0 8px rgba(79, 172, 254, 0.3);
+}
+
+button {
+    background-color: #4facfe;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    margin: 15px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #0077c2;
+    transform: scale(1.05);
+}
+
+#cotacao, #resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #e8f4fc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#cotacao {
+    color: #0077c2;
+}
